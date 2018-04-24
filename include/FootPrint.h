@@ -1,6 +1,7 @@
 /*
  * Copyright (C) 2017 Fondazione Istituto Italiano di Tecnologia
  * Authors: Stefano Dafarra
+ *          Giulio Romualdi
  * CopyPolicy: Released under the terms of the LGPLv2.1 or later, see LGPL.TXT
  *
  */
@@ -40,6 +41,8 @@ public:
     bool keepOnlyPresentStep(double time); //drops all the steps except the last whose impacttime is lower than time.
 
     void clearSteps();
+
+    bool removeLastStep();
 
     size_t numberOfSteps() const;
 
