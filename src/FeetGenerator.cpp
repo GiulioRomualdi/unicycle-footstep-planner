@@ -6,7 +6,7 @@
  */
 
 #include <FeetGenerator.h>
-
+#include <cmath>
 
 FeetGenerator::~FeetGenerator()
 { }
